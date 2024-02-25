@@ -1,7 +1,6 @@
-// import compose from "compose-function"
 import { compose } from "~/shared/helpers";
-// import { withApollo } from "./with-apollo";
+import { withApollo } from "./with-apollo";
 
-// export const WithProviders = compose(
-//     withApollo,
-// )
+export const WithProviders = compose(
+    withApollo,
+)
